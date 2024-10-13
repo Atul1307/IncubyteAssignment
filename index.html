@@ -7,8 +7,20 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <h1 id="inputElement">Input appears here</h1>
-    <h1 id="resultElement">Result appears here</h1>
+    <h1>String calculator for addition</h1>
+    <div>
+      <p>Please add your input with delimiters in the below textarea</p>
+      <p>Default supported delimiters are: , (comma) and \n (newline)</p>
+      <p>Example: Input -> 1,4</p>
+      <p>Custom delimiters are also supported</p>
+      <p>
+        For custom delimiter, plese give your delimter in the first line after
+        //
+      </p>
+    </div>
+    <textarea id="inputElement" placeholder="Input appears here"></textarea>
+    <button id="addBtn">Add</button>
+    <h2 id="resultElement">Result appears here</h2>
   </body>
-  <script src="./index.js"></script>
+  <script type="module" src="./index.js"></script>
 </html>
